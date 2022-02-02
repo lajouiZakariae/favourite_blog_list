@@ -1,0 +1,36 @@
+.post {
+  height: 100%;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+          box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.post-title a {
+  color: black;
+  font-size: 1.17rem;
+}
+
+.post-info {
+  font-size: 0.8em;
+}
+
+.post .btn {
+  color: white;
+  background-color: black;
+}
+
+.card {
+  max-width: 360px;
+}
+
+.card-footer {
+  font-size: 0.8rem;
+}
+
+.card-footer a {
+  color: black;
+}
+
+.card-text p {
+  margin-bottom: 0.5rem;
+}
+/*# sourceMappingURL=style.css.map */

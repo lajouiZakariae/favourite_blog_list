@@ -1,0 +1,31 @@
+$pri_color: black;
+
+.post {
+    height: 100%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    &-title a {
+        color: $pri_color;
+        font-size: 1.17rem;
+    }
+    
+    &-info {
+        font-size: 0.8em;
+    }
+    .btn {
+        color: white;
+        background-color: $pri_color;
+    }
+}
+
+.card {
+    max-width: 360px;
+    &-footer {
+        font-size: 0.8rem;
+        a {
+            color: $pri_color;
+        }
+    }
+    &-text p {
+        margin-bottom: 0.5rem;
+    }
+}
